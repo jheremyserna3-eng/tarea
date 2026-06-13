@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Feria de turismo en China</title>
+    <link rel="stylesheet" href="Styles.css">
+</head>
+
+<body>
+    
+    <header>    
+        <h1>Feria de turismo en China</h1>
+        <p>¡Bienvenidos al Pabellón de China! Descubre un destino imponente donde la historia milenaria 
+           y la modernidad más avanzada conviven en perfecta armonía.</p>
+        <figure class="banner-principal">
+            <img src="img/banner.jpg" alt="Gran Muralla China al amanecer" width="100%">
+        </figure>
+    </header>
+
+    <nav class="menu">
+        <a href="#inicio">Inicio</a>
+        <a href="#destinos">Destinos</a>
+        <a href="#ofertas">Ofertas</a>
+        <a href="#experiencias">Experiencias</a>
+        <a href="#opinion">Tu Opinión</a>
+    </nav>
+
+    <main>
+        <section id="inicio">
+            <h2>Inicio</h2>
+            <p>Bienvenidos al pabellón de China en la Feria de Turismo Mundial. Explora la majestuosidad de una nación donde la tradición milenaria se fusiona con la tecnología del futuro.</p>
+        </section>
+
+        <section id="destinos">
+            <h2>Destinos</h2>
+            <p>Descubre los destinos más imponentes de China: desde la Gran Muralla que serpentea entre montañas hasta los modernos rascacielos de Shanghái y los Guerreros de Terracota en Xi'an.</p>
+            
+            <div class="galeria-destinos">
+                <figure>
+                    <img src="img/shanghai.jpg" alt="Rascacielos y skyline moderno de Shanghái" width="300">
+                    <figcaption>El deslumbrante skyline de Shanghái</figcaption>
+                </figure>
+                <figure>
+                    <img src="img/terracota.jpg" alt="Estatua detallada de los Guerreros de Terracota en Xi'an" width="300">
+                    <figcaption>Los legendarios Guerreros de Terracota en Xi'an</figcaption>
+                </figure>
+            </div>
+        </section>
+
+        <section id="ofertas">
+            <h2>Ofertas</h2>
+            <p>Aprovecha nuestras promociones exclusivas para expediciones a la Ciudad Prohibida y cruceros por el río Yangtsé. No pierdas la oportunidad de conocer el Gigante Asiático.</p>
+            
+            <figure class="imagen-oferta">
+                <img src="img/ciudad-prohibida.jpg" alt="Entrada principal a la Ciudad Prohibida en Pekín" width="500">
+                <figcaption>Paquetes todo incluido a la histórica Ciudad Prohibida</figcaption>
+            </figure>
+        </section>
+
+        <section id="experiencias">
+            <h2>Experiencias</h2>
+            <p>Vive aventuras únicas: camina por secciones remotas de la muralla, participa en ceremonias de té tradicionales y recorre los mercados de seda más grandes del mundo.</p>
+            
+            <figure class="imagen-experiencia">
+                <img src="img/ceremonia-te.jpg" alt="Ceremonia tradicional de té en China" width="400">
+                <figcaption>Conecta con la cultura a través de una auténtica ceremonia del té</figcaption>
+            </figure>
+        </section>
+
+        <section id="opinion">
+            <h2>Cuéntanos tu opinión</h2>
+            <p>¿Qué es lo que más te llama la atención de China? Déjanos tus comentarios y comparte tus impresiones sobre este increíble destino.</p>
+            
+            <form action="#" method="POST" class="formulario-opinion">
+                <div class="grupo-campo">
+                    <label for="nombre">Nombre:</label><br>
+                    <input type="text" id="nombre" name="nombre" placeholder="Tu nombre" required>
+                </div>
+                
+                <div class="grupo-campo" style="margin-top: 10px;">
+                    <label for="correo">Correo electrónico:</label><br>
+                    <input type="email" id="correo" name="correo" placeholder="tu@email.com" required>
+                </div>
+
+                <div class="grupo-campo" style="margin-top: 10px;">
+                    <label for="comentario">Tu opinión sobre China:</label><br>
+                    <textarea id="comentario" name="comentario" rows="5" cols="40" placeholder="Escribe aquí tus comentarios o dudas..." required></textarea>
+                </div>
+
+                <div class="grupo-campo" style="margin-top: 15px;">
+                    <button type="submit">Enviar opinión</button>
+                </div>
+            </form>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2026 Pabellón de China - Feria de Turismo Mundial. Todos los derechos reservados.</p>
+    </footer>
+
+</body>
+
+</html>
